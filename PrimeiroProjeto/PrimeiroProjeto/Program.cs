@@ -38,8 +38,6 @@ namespace ConsoleApplication2
             Console.WriteLine(x);
             Console.WriteLine(y);
 
-            //Test
-
             Console.ReadLine();
         }
     }
