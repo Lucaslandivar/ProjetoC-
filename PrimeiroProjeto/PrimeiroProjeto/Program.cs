@@ -21,24 +21,12 @@ namespace ConsoleApplication2
             //Console.WriteLine(x.ToString("F4"));
             //Console.WriteLine(x.ToString("F2", CultureInfo.InvariantCulture));
 
-            //Console.WriteLine();
-            //Console.WriteLine("RESULTADO = " + x);
-            //Console.WriteLine("O valor do troco é " + x + " reais");
-            //Console.WriteLine("O valor do troco é " + x.ToString("F2") + " reais");
-
-            //Console.WriteLine();
-            //Console.WriteLine("A paciente " + z + " tem " + y + " anos e seu sexo é: " + w);
-
-            //Console.ReadLine();
-
             int x, y;
             x = 5;
             y = 2 * x;
 
             Console.WriteLine(x);
             Console.WriteLine(y);
-
-            //Teste
 
             Console.ReadLine();
         }
