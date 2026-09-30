@@ -21,12 +21,24 @@ namespace ConsoleApplication2
             //Console.WriteLine(x.ToString("F4"));
             //Console.WriteLine(x.ToString("F2", CultureInfo.InvariantCulture));
 
-            int x, y;
-            x = 5;
-            y = 2 * x;
+            //int x, y;
+            //x = 5;
+            //y = 2 * x;
 
-            Console.WriteLine(x);
-            Console.WriteLine(y);
+            //Console.WriteLine(x);
+            //Console.WriteLine(y);
+
+            //Console.ReadLine();
+
+            int a, b;
+            double resultado;
+
+            a = 5;
+            b = 2;
+
+            resultado = (double) a / b;
+
+            Console.WriteLine(resultado);
 
             Console.ReadLine();
         }
