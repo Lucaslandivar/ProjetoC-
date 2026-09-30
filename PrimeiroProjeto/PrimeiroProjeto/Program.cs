@@ -30,15 +30,25 @@ namespace ConsoleApplication2
 
             //Console.ReadLine();
 
-            int a, b;
-            double resultado;
+            //int a, b;
+            //double resultado;
 
-            a = 5;
-            b = 2;
+            //a = 5;
+            //b = 2;
 
-            resultado = (double) a / b;
+            //resultado = (double) a / b;
 
-            Console.WriteLine(resultado);
+            //Console.WriteLine(resultado);
+
+            //Console.ReadLine();
+
+            double a;
+            int b;
+
+            a = 5.0;
+            b = (int) a;
+
+            Console.WriteLine(b);
 
             Console.ReadLine();
         }
