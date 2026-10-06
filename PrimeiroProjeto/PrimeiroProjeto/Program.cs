@@ -24,6 +24,8 @@ namespace Course
             Console.WriteLine("A: " + a);
             Console.WriteLine("B: " + b);
             Console.WriteLine("C: " + c);
+
+        //teste
         }
     }
 }
