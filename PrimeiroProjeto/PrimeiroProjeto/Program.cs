@@ -25,6 +25,8 @@ namespace Course
             Console.WriteLine("Preço do terreno: " + preco.ToString("F2", CultureInfo.InvariantCulture));
 
             Console.ReadLine();
+
+            Console.WriteLine("Hello World!");
         }
     }
 }
