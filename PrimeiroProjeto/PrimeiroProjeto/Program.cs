@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Globalization;
 
 namespace Course
 {
@@ -6,26 +7,23 @@ namespace Course
     {
         static void Main(string[] args)
         {
-            string frase = Console.ReadLine();
-            string x = Console.ReadLine();
-            string y = Console.ReadLine();
-            string z = Console.ReadLine();
-            //string s = Console.ReadLine();
+            int n1 = int.Parse(Console.ReadLine());
+            char ch = char.Parse(Console.ReadLine());
+            double n2 = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
 
-            string[] v = Console.ReadLine().Split(' ');
-            string a = v[0];
-            string b = v[1];
-            string c = v[2];
+            string[] vet = Console.ReadLine().Split(' ');
+            string nome = vet[0];
+            char sexo = char.Parse(vet[1]);
+            int idade = int.Parse(vet[2]);
+            double altura = double.Parse(vet[3], CultureInfo.InvariantCulture);
 
-            Console.WriteLine("Fala brother, " + frase);
-            Console.WriteLine("X: " + x);
-            Console.WriteLine("Y: " + y);
-            Console.WriteLine("Z: " + z);
-            Console.WriteLine("A: " + a);
-            Console.WriteLine("B: " + b);
-            Console.WriteLine("C: " + c);
-
-        //teste
+            Console.WriteLine("O número digitado foi: " + n1);
+            Console.WriteLine("O caractere digitado foi: " + ch);
+            Console.WriteLine("O número decimal digitado foi: " + n2);
+            Console.WriteLine("Nome: " + nome);
+            Console.WriteLine("Sexo: " + sexo);
+            Console.WriteLine("Idade: " + idade);
+            Console.WriteLine("Altura: " + altura);
         }
     }
 }
