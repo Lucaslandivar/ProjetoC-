@@ -7,23 +7,22 @@ namespace Course
     {
         static void Main(string[] args)
         {
-            int n1 = int.Parse(Console.ReadLine());
-            char ch = char.Parse(Console.ReadLine());
-            double n2 = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            string Nome = Console.ReadLine();
+            int Quartos = int.Parse(Console.ReadLine());
+            double Preco = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
 
-            string[] vet = Console.ReadLine().Split(' ');
-            string nome = vet[0];
-            char sexo = char.Parse(vet[1]);
-            int idade = int.Parse(vet[2]);
-            double altura = double.Parse(vet[3], CultureInfo.InvariantCulture);
+            string[] Vetor = Console.ReadLine().Split(' ');
+            string Nome2 = Vetor[0];
+            int idade = int.Parse(Vetor[1]);
+            double Altura = double.Parse(Vetor[2], CultureInfo.InvariantCulture);
 
-            Console.WriteLine("O número digitado foi: " + n1);
-            Console.WriteLine("O caractere digitado foi: " + ch);
-            Console.WriteLine("O número decimal digitado foi: " + n2);
-            Console.WriteLine("Nome: " + nome);
-            Console.WriteLine("Sexo: " + sexo);
+            Console.WriteLine("Você digitou: ");
+            Console.WriteLine("Nome: " + Nome);
+            Console.WriteLine("Quartos: " + Quartos);
+            Console.WriteLine("Preço: " + Preco);
+            Console.WriteLine("Nome 2: " + Nome2);
             Console.WriteLine("Idade: " + idade);
-            Console.WriteLine("Altura: " + altura);
+            Console.WriteLine("Altura: " + Altura);
         }
     }
 }
